@@ -1,0 +1,25 @@
+{
+	"name": "lit-snowpack-template",
+	"version": "1.0.0",
+	"scripts": {
+		"s": "npx servor . index.html 8080 --reload --browse",
+		"snowpack": "npx snowpack --optimize",
+		"prepare": "npm run snowpack"
+	},
+	"dependencies": {
+		"lit-element": "^2.3.1"
+	},
+	"devDependencies": {
+		"snowpack": "^1.6.0"
+	},
+	"snowpack": {
+		"dedupe": [
+			"lit-html"
+		],
+		"webDependencies": [
+			"lit-html",
+			"lit-element",
+			"lit-html/directives/repeat.js"
+		]
+	}
+}
