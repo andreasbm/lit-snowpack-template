@@ -2,8 +2,11 @@
 	"name": "lit-snowpack-template",
 	"version": "1.0.0",
 	"scripts": {
-		"s": "npx servor . index.html 8080 --reload --browse",
+		"s": "npx servor . index.html --reload --browse",
 		"snowpack": "npx snowpack --include \"src/**/*.js\" --optimize",
 		"prepare": "npm run snowpack"
+	},
+	"dependencies": {
+		"lit-element": "^2.3.1"
 	}
 }
