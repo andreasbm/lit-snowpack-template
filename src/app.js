@@ -1,5 +1,5 @@
-import {sharedStyles} from "./styles/shared.js";
-import {css, html, LitElement} from "./web_modules/lit-element.js";
+import {sharedStyles} from "../styles/shared.js";
+import {css, html, LitElement} from "../web_modules/lit-element.js";
 
 /**
  * Entry point for the application.
@@ -40,4 +40,4 @@ class App extends LitElement {
 	}
 }
 
-customElements.define("lst-app", App);
+customElements.define("demo-app", App);
