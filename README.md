@@ -6,14 +6,17 @@ A simple template for getting started with lit-element and snowpack.
 
 ### Step 1: Install dependencies
 
-Run `npm i` to install the dependencies. This will also generate a `web_modules` folder with the required dependencies.
+Run `npm i` to install the dependencies.
 
 ### Step 2: Run the application
 
-Run `npm s` to spin up the dev server.
+Run `npm run s` to spin up the dev server.
+
+### Step 3: Build the application
+
+When you are ready, use `npm run b` to build the code for production.
 
 ## Technology
 
 * [`lit-element`](https://lit-element.polymer-project.org) for creating components.
 * [`snowpack`](https://www.snowpack.dev) for dependencies.
-* [`servor`](https://github.com/lukejacksonn/servor) for serving files.

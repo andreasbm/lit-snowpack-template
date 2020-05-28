@@ -1,11 +1,10 @@
 import {sharedStyles} from "../styles/shared.js";
-import {css, html, LitElement} from "../web_modules/lit-element.js";
+import {css, html, LitElement} from "lit-element";
 
 /**
  * Entry point for the application.
  */
 class App extends LitElement {
-
 
 	/**
 	 * Returns the styles of the element.
@@ -14,7 +13,6 @@ class App extends LitElement {
 		return [
 			sharedStyles,
 			css`
-				
 			`
 		];
 	}
